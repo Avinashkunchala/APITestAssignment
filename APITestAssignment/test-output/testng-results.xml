@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-27T14:56:11Z" name="Suite" finished-at="2021-07-27T14:56:15Z" duration-ms="3993">
+    <groups>
+    </groups>
+    <test started-at="2021-07-27T14:56:11Z" name="Test" finished-at="2021-07-27T14:56:15Z" duration-ms="3993">
+      <class name="com.APIAssignment.Tests.getAPI">
+        <test-method is-config="true" signature="baseURL()[pri:0, instance:com.APIAssignment.Tests.getAPI@4b7dc788]" started-at="2021-07-27T14:56:11Z" name="baseURL" finished-at="2021-07-27T14:56:11Z" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseURL -->
+        <test-method signature="getAPIRequest()[pri:0, instance:com.APIAssignment.Tests.getAPI@4b7dc788]" started-at="2021-07-27T14:56:11Z" name="getAPIRequest" description="Verifying the get API by passing the query param as name and value as sachin" finished-at="2021-07-27T14:56:13Z" duration-ms="1999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPIRequest -->
+      </class> <!-- com.APIAssignment.Tests.getAPI -->
+      <class name="com.APIAssignment.Tests.postAPI">
+        <test-method signature="postAPIRequest()[pri:0, instance:com.APIAssignment.Tests.postAPI@6304101a]" started-at="2021-07-27T14:56:13Z" name="postAPIRequest" description="Validating the Post API request" finished-at="2021-07-27T14:56:15Z" duration-ms="1689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postAPIRequest -->
+        <test-method is-config="true" signature="baseURL()[pri:0, instance:com.APIAssignment.Tests.postAPI@6304101a]" started-at="2021-07-27T14:56:13Z" name="baseURL" finished-at="2021-07-27T14:56:13Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseURL -->
+      </class> <!-- com.APIAssignment.Tests.postAPI -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
